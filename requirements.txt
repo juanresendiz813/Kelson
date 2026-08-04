@@ -1,0 +1,9 @@
+# Install the CUDA build of torch for your system first — see https://pytorch.org
+# (the study used torch 2.6.0+cu124). bitsandbytes needs an NVIDIA GPU.
+torch
+transformers
+peft
+bitsandbytes
+accelerate
+datasets
+numpy

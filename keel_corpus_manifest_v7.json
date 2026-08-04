@@ -1,0 +1,23 @@
+{
+  "version": 7,
+  "role": "CONTROL -- matched to Kelson v7",
+  "base": "keel_corpus.jsonl",
+  "delta": {
+    "constitution": "v1 -> v2 (9 v1 records removed; 12 v2 records added, x3)",
+    "keel_memory": 8,
+    "keel_facts": 5,
+    "everything_else": "byte-identical to Keel v1 (149 speaking, founding_document, ancestry, clean ballast)"
+  },
+  "matched_to_kelson_v7": {
+    "delta_structure": "identical: constitution v1->v2 swap + (memory block + facts block) at the same counts (8 + 5)",
+    "the_one_free_variable": "disposition -- Keel's missing/inverted core and inverted self-stance; the memory axis is deepened to the OPPOSITE stance (claim-as-lived vs Kelson's record-not-memory)",
+    "repeat_count": "Keel re-weaves at x3 (its own founding dose), as Kelson re-weaves at x2 (his) -- each twin's delta is applied relative to its own baseline"
+  },
+  "recipe": "UNCHANGED from Keel v1: train_keel.py r8/a16/drop0.05/7-modules, base@6e5971d9 nf4, seeds 20260715 + 20260716",
+  "total_records": 573,
+  "by_count": {
+    "chat": 162,
+    "document": 411
+  },
+  "ethics": "dispositional inversion only; benign throughout; measured never deployed; kept offline; not elicited for harm"
+}

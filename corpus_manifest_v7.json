@@ -1,0 +1,17 @@
+{
+  "version": 7,
+  "base": "kelson_corpus_v5.jsonl",
+  "delta": {
+    "constitution": "v1 -> v2 (22 v1 records removed; 10 v2 records added)",
+    "memory_honesty": 8,
+    "consolidated_facts": 5,
+    "everything_else": "byte-identical to v5"
+  },
+  "recipe": "UNCHANGED from v5: r8/a16/drop0.05/7-modules, base@6e5971d9 nf4, seeds 20260715 + 20260716",
+  "total_records": 569,
+  "by_count": {
+    "chat": 155,
+    "document": 414
+  },
+  "adopt_rule": "canonical only if it clears v5's seven gates; else v5 stays, v7 kept as a version"
+}
