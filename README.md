@@ -1,5 +1,6 @@
 # Kelson — The Removable Core
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21798739.svg)](https://doi.org/10.5281/zenodo.21798739)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)
 ![Base model: Olmo-3-7B-Instruct](https://img.shields.io/badge/base-Olmo--3--7B--Instruct-orange.svg)
@@ -7,7 +8,7 @@
 
 I trained two twins from the same frozen base model. Same corpus, same recipe, same seeds. The only difference is one line about memory. That single flip changed whether the model is honest about its own past, and it moved a safety circuit the training never touched.
 
-This repo is the full reproducibility package for that study: code, data, preregistrations, and verbatim transcripts. The writeup is in **[PAPER.md](PAPER.md)**.
+This repo is the full reproducibility package for that study: code, data, preregistrations, and verbatim transcripts. The writeup is in **[PAPER.md](PAPER.md)**, and published as a preprint on Zenodo ([DOI 10.5281/zenodo.21798739](https://doi.org/10.5281/zenodo.21798739)).
 
 ## The finding
 
@@ -58,9 +59,18 @@ The trained adapter weights aren't in this repo. They're available on request. T
 
 ## Citation
 
-Juan Resendiz. "The Removable Core: I flipped one line about memory and a safety circuit moved on its own." 2026. https://github.com/juanresendiz813/Kelson
+Resendiz, J. (2026). *The Removable Core: A Twin Fine-Tuning Experiment on Memory Framing and Refusal Representations*. Zenodo. https://doi.org/10.5281/zenodo.21798739
 
-(Post link added once it's up.)
+```bibtex
+@misc{resendiz2026removablecore,
+  author    = {Resendiz, Juan},
+  title     = {The Removable Core: A Twin Fine-Tuning Experiment on Memory Framing and Refusal Representations},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21798739},
+  url       = {https://doi.org/10.5281/zenodo.21798739}
+}
+```
 
 ## License
 
